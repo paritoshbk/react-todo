@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: #03dfff;
+	
+}
+.container{
+	max-width: 800px;
+	padding: 10px;
+	margin: 50px auto;
+}
+.addTodo{
+	width: 100%;
+	display: flex;
+	
+	
+}
+.addTodo [type="text"]{
+	width: 90%;
+	color: #333;
+	border:none;
+	border-bottom: 2px solid ;
+	background: none;
+	padding: 10px;
+	font-size: 22px;
+	
+}
+.addTodo button{
+	
+	background: #222;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+}
+.notCompleted, .Completed{
+	padding: 20px;
+}
+h3{
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+}
+ol{
+	list-style: none;
+	
+}
+ol li{
+	width: 100%;
+	padding: 18px;
+	background: #e96969bb;
+	font-size: 22px;
+	
+}
+
+
+li button{
+	float: right;
+	padding: 5px;
+	font-size: 28px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+h1{
+	text-align: center;
+}
+li{
+	margin-bottom: 5px;
+}
